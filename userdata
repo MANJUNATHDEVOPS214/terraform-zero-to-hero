@@ -1,3 +1,7 @@
+#day-24 aws zero to hero
+#encoded userdata to be run when instances are ready
+#use loadbalancer to reach them 
+
 #!/bin/bash
 apt update
 apt install -y apache2
