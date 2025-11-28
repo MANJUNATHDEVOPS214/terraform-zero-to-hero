@@ -1,3 +1,7 @@
+#day-24 aws 0 to hero
+#main.tf project creating vpc,two subnets,two instances in each subnet.igw,rt,rtassociation,security group,load balancer,lbtargetgroup,lbtgattachement,lblistner
+
+
 resource "aws_vpc" "myvpc" {
    cidr_block = var.cidr  
 }
